@@ -1,0 +1,6 @@
+---
+# This playbook will deploy the Application
+- hosts: appservers
+  tasks:
+    - name: Print
+      debug: msg='Hello World'
